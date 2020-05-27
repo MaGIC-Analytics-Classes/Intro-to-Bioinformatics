@@ -6,8 +6,13 @@ channels:
 dependencies:
   - notebook=5.7.5
   - jupyterlab=1.2
-  - ipywidgets=7.5
+  - ipywidgets=7.5.1
   - rpy2=2.9.4
   - numpy=1.18.1
   - ipython=7.13.0
   - pandas=1.0.3
+  - bioconda::sra-tools=2.10.3
+  - pip
+  - pip: 
+    - ncbi-acc-download
+    - ncbi-genome-download
